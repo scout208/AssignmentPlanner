@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\january.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\january.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\assignments.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\assignments.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gpa_calculator.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\gpa_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\class_details.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\class_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\add_new.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\add_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_profile.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\main_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\classes.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\classes.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\day_plan.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\day_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\free_time.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\free_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\add_new_class.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\add_new_class.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\february.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\february.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\add_new_assignment.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\add_new_assignment.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\assignment_details.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\assignment_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\simple_day_view.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\simple_day_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\test.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\test.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\today.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\today.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\calendar_view.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\calendar_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\calendar.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\yad_view.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\yad_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\day_planner.xml",
+        "source": "C:\\Users\\anime_000\\Documents\\AssignmentPlanner\\app\\src\\main\\res\\menu\\day_planner.xml"
+    }
+]

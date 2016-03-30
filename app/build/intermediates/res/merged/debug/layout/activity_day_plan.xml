@@ -1,0 +1,444 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.assignmentplanner.DayPlan" 
+    android:background="@drawable/lightwoodenbackground">
+
+    <TextView
+        android:id="@+id/DateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Saturday December 7th"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/dayPlanHorizontalRule"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/DateText"
+        android:background="#000000" >
+    </View>
+
+    <LinearLayout
+        android:id="@+id/eightinthemorninglayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dayPlanHorizontalRule" >
+
+        <TextView
+            android:id="@+id/eightinmorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="8:00 A.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/eightmorningedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nineinthemorninglayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eightinthemorninglayout" >
+
+        <TextView
+            android:id="@+id/nineinmorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="9:00 A.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/ninemorningedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/teninthemorninglayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nineinthemorninglayout" >
+
+        <TextView
+            android:id="@+id/teninmorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="10:00 A.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/tenmorningedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eleveninthemorninglayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teninthemorninglayout" >
+
+        <TextView
+            android:id="@+id/eleveninmorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="11:00 A.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/elevenmorningedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/noon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eleveninthemorninglayout" >
+
+        <TextView
+            android:id="@+id/nooninmorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="12:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/noonmorningedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/oneinafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noon" >
+
+        <TextView
+            android:id="@+id/oneintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="1:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/oneafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/twoinafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oneinafternoon" >
+
+        <TextView
+            android:id="@+id/twointheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="2:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/twoafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/threeinafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twoinafternoon" >
+
+        <TextView
+            android:id="@+id/threeintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="3:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/threeafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourinafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/threeinafternoon" >
+
+        <TextView
+            android:id="@+id/fourintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="4:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/fourafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fiveinafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fourinafternoon" >
+
+        <TextView
+            android:id="@+id/fiveintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="5:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/fiveafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sixinafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fiveinafternoon" >
+
+        <TextView
+            android:id="@+id/sixintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="6:00 P.M." >
+        </TextView>
+
+        <EditText
+            android:id="@+id/sixafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/seveninafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sixinafternoon" >
+
+        <TextView
+            android:id="@+id/sevenintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="7:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/sevenafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eightinafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seveninafternoon" >
+
+        <TextView
+            android:id="@+id/eightintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="8:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/eightafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nineinafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eightinafternoon" >
+
+        <TextView
+            android:id="@+id/nineintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="9:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/nineafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/teninafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nineinafternoon" >
+
+        <TextView
+            android:id="@+id/tenintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="10:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/tenafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eleveninafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teninafternoon" >
+
+        <TextView
+            android:id="@+id/elevenintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="11:00 P.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/elvenafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/midnightinafternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eleveninafternoon" >
+
+        <TextView
+            android:id="@+id/midnightintheafternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="12:00 A.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/midnightafternoonedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/oneinthemorning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/midnightinafternoon" >
+
+        <TextView
+            android:id="@+id/oneinmorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="1:00 A.M" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/onemorningedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+</RelativeLayout>

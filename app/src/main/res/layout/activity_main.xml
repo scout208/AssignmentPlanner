@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/woodenbackground">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="6dip">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/MainProfile"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/profilepostit"
+                android:onClick="ButtonCommand" />
+
+            <Button
+                android:id="@+id/Today"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/todaypostit"
+                android:onClick="ButtonCommand" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/CalendarButton"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/calendarpostit"
+                android:onClick="ButtonCommand" />
+
+            <Button
+                android:id="@+id/AssignmentsButton"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/assignmentspostit"
+                android:onClick="ButtonCommand" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ClassesButton"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/classes_postit"
+                android:onClick="ButtonCommand" />
+
+            <Button
+                android:id="@+id/FreeTime"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/freetime_postit"
+                android:onClick="ButtonCommand" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+   

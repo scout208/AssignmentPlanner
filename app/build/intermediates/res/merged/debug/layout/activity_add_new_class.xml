@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.assignmentplanner.AddNewClassActivity" 
+    android:orientation="vertical" >
+
+    <!-- Class Name -->
+	<EditText 
+        android:id="@+id/classNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/class_name" />
+	 
+   	<!-- SH -->
+	<Spinner
+        android:id="@+id/SHSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/sh_array" />
+    
+    <!-- Days of the week -->
+	<EditText
+	    android:id="@+id/daysOfTheWeekEditText"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/days_of_the_week"
+	    android:editable="false"
+	    android:onClick="showDaySelectorDialog" />
+	
+	<!-- Start time -->
+	<EditText 
+	    android:id="@+id/startTimeEditText"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/start_time"
+	    android:editable="false"
+	    android:onClick="showStartTimePickerDialog" />
+	
+	<!-- End time -->
+	<EditText 
+	    android:id="@+id/endTimeEditText"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/end_time"
+	    android:editable="false"
+	    android:onClick="showStopTimePickerDialog" />
+	
+	<!-- Add more details later if desired -->
+</LinearLayout>

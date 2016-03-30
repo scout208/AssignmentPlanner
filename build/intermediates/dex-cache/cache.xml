@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\anime_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_e2619664d6b40f5450fdbe4914d79c9cd6674903.jar" />
+    </item>
+    <item
+        jar="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_cd8516cbf09242bbb04e8ca8ab403aebf57ec548.jar" />
+    </item>
+    <item
+        jar="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_dcccbfe32470ac10a7961a48accb1d4874eba31a.jar" />
+    </item>
+    <item
+        jar="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_c6e902a4de80c5f600a3d21b0d5d75b7fd586987.jar" />
+    </item>
+    <item
+        jar="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_1bd0b9150febd78ce7806a210d3eec9e6f1d93d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\anime_000\Documents\AssignmentPlanner\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_64ad314b45ca14d5980bbd74942ffc9902e73db2.jar" />
+    </item>
+
+</items>

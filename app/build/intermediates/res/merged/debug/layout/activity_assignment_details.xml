@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.assignmentplanner.AssignmentDetailsActivity" >
+
+    <!-- Assignment Name -->
+
+    <TextView
+        android:id="@+id/assignment_details_txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Assignment Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    <!-- Assignment Type -->
+
+    <TextView
+        android:id="@+id/assignment_details_txtType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/assignment_details_txtName"
+        android:layout_alignParentRight="true"
+        android:text="Type"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <!-- Class (w/label) -->
+    <TextView
+        android:id="@+id/assignment_details_txtClassLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/assignment_details_txtName"
+        android:text="@string/class_label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/assignment_details_txtClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/assignment_details_txtClassLabel"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/assignment_details_txtClassLabel"
+        android:text="Class"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+    <!-- Assignment Due Date (w/label) -->
+    <TextView
+        android:id="@+id/assignment_details_txtDueDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/assignment_details_txtClassLabel"
+        android:text="@string/due"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/assignment_details_txtDueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/assignment_details_txtDueDateLabel"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/assignment_details_txtDueDateLabel"
+        android:text="Due Date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+    <!-- Additional Info Label -->
+    <TextView
+        android:id="@+id/assignment_details_txtAdditionalInfoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/assignment_details_txtDueDate"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:text="Additional info"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+    
+    <!-- Horizontal rule (for layouting) -->
+    <View
+        android:id="@+id/horizontal_rule"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/assignment_details_txtAdditionalInfoLabel"
+        android:background="#000000" />
+    
+    <!-- Additional Info -->
+    <TextView
+        android:id="@+id/assignment_details_txtAdditionalInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/horizontal_rule"
+        android:text="info"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

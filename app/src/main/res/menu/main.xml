@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.assignmentplanner.MainActivity">
+
+    <item
+        android:id="@+id/CalendarMenuButton"
+        android:icon="@drawable/ic_action_go_to_today"
+        android:title="@string/Calendar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/AssignmentMenuButton"
+        android:icon="@drawable/ic_action_copy"
+        android:title="@string/assignments"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/SettingsMenuButton"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/Settings"
+        app:showAsAction="ifRoom" />
+</menu>

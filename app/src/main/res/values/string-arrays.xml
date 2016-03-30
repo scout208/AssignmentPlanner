@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="types_array">
+        <item>Homework</item>
+        <item>Paper</item>
+        <item>Test</item>
+        <item>Quiz</item>
+        <item>Study</item>
+        <item>Read</item>
+        <item>Lab</item>
+        <item>Project</item>
+        <item>Presentation</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="class_array">
+        <item>Add a new class</item>
+    </string-array>
+    <string-array name="time_choices">
+        <item>Choose Preferred Study Time</item>
+        <item>Morning (8-12)</item>
+        <item>Afternoon(12-5)</item>
+        <item>Night(5-10)</item>
+        <item>Late Night(10+)</item>
+        <item>I Dont Care</item>
+        <item>I Dont Like To Study This Day</item>
+    </string-array>
+    <string-array name="sh_array">
+        <item>0 SH</item>
+        <item>1 SH</item>
+        <item>2 SH</item>
+        <item>3 SH</item>
+        <item>4 SH</item>
+        <item>5 SH</item>
+    </string-array>
+    <string-array name="daysOfTheWeek">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+</resources>

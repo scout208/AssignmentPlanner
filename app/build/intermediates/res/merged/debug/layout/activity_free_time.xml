@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightwoodenbackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/labelSpinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/Spinner1" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSpinner1"
+        android:layout_toRightOf="@id/labelSpinner1"
+        android:entries="@array/time_choices"
+        android:prompt="@string/ChooseTime"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/labelSpinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/Spinner2" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSpinner2"
+        android:layout_toRightOf="@id/labelSpinner2"
+        android:entries="@array/time_choices"
+        android:prompt="@string/ChooseTime"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/labelSpinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/Spinner3" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSpinner3"
+        android:layout_toRightOf="@id/labelSpinner3"
+        android:entries="@array/time_choices"
+        android:prompt="@string/ChooseTime"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/labelSpinner4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/Spinner4" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSpinner4"
+        android:layout_toRightOf="@id/labelSpinner4"
+        android:entries="@array/time_choices"
+        android:prompt="@string/ChooseTime"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/labelSpinner5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/Spinner5" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSpinner5"
+        android:layout_toRightOf="@id/labelSpinner5"
+        android:entries="@array/time_choices"
+        android:prompt="@string/ChooseTime"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/labelSpinner6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/Spinner6" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSpinner6"
+        android:layout_toRightOf="@id/labelSpinner6"
+        android:entries="@array/time_choices"
+        android:prompt="@string/ChooseTime"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/labelSpinner7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/Spinner7" />
+
+    <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/labelSpinner7"
+        android:layout_toRightOf="@id/labelSpinner7"
+        android:entries="@array/time_choices"
+        android:prompt="@string/ChooseTime"
+        android:textSize="30sp" />
+
+</LinearLayout>

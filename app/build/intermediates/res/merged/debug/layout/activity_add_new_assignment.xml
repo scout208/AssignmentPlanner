@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.assignmentplanner.AddNewAssignmentActivity"
+    android:orientation = "vertical"  >
+
+   	<!-- Assignment Name -->
+	<EditText 
+        android:id="@+id/assignmentNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/assignment_name" />
+	 
+   	<!-- Assignment Type -->
+	<EditText
+        android:id="@+id/typeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/assignment_type"
+        android:editable="false"
+        android:onClick="showTypePickerDialog" />
+    
+    <!-- Class -->
+	<EditText
+	    android:id="@+id/classEditText"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/assignment_class"
+	    android:editable="false"
+	    android:onClick="showClassPickerDialog"/>
+	
+	<!-- Due Date -->
+	<EditText 
+	    android:id="@+id/dueDateEditText"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/due_date"
+	    android:editable="false"
+	    android:onClick="showDueDatePickerDialog" />
+	
+	<!-- Due Time -->
+	<EditText 
+	    android:id="@+id/dueTimeEditText"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/due_time"
+	    android:editable="false"
+	    android:onClick="showDueTimePickerDialog" />
+	
+	<!-- Add more details later if desired -->
+	
+	<!-- Additional Info -->
+	<EditText
+	    android:id="@+id/additionalInfoEditText"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="left"
+	    android:hint="@string/additional_info"
+	    android:inputType="textMultiLine" >
+	</EditText>
+
+</LinearLayout>

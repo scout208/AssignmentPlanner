@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.assignmentplanner"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:installLocation="auto">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AssignmentsActivity"
+            android:label="@string/assignments"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignmentplanner.AssignmentsActivity" />
+        </activity>
+        <activity
+            android:name=".AssignmentDetailsActivity"
+            android:label="@string/title_activity_details"
+            android:parentActivityName=".AssignmentsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignmentplanner.AssignmentDetailsActivity" />
+        </activity>
+        <activity
+            android:name=".ClassDetailsActivity"
+            android:label="@string/title_activity_class_details"
+            android:parentActivityName=".ClassesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignmentplanner.ClassesActivity" />
+        </activity>
+        <activity
+            android:name=".AddNewAssignmentActivity"
+            android:label="@string/title_activity_add_new"
+            android:parentActivityName=".AssignmentsActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignmentplanner.AssignmentsActivity" />
+        </activity>
+        <activity
+            android:name=".CalendarSimple"
+            android:label="@string/title_activity_calendar_simple"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignmentplanner.AssignmentsActivity" />
+        </activity>
+        <activity
+            android:name=".FreeTime"
+            android:label="@string/title_activity_free_time"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignmentplanner.AssignmentsActivity" />
+        </activity>
+        <activity
+            android:name=".AddNewClassActivity"
+            android:label="@string/title_activity_add_new_class"
+            android:parentActivityName=".ClassesActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignmentplanner.ClassesActivity" />
+        </activity>
+        <activity
+            android:name=".MainProfile"
+            android:label="@string/title_activity_main_profile"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignmentplanner.AssignmentsActivity" />
+        </activity>
+        <activity
+            android:name=".ClassesActivity"
+            android:label="@string/title_activity_classes"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignmentplanner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DayPlan"
+            android:label="@string/title_activity_day_plan"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignmentplanner.AssignmentsActivity" />
+        </activity>
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test"></activity>
+        <activity
+            android:name=".TodayActivity"
+            android:label="@string/title_activity_today"></activity>
+    </application>
+
+</manifest>
